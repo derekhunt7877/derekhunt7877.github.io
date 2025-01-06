@@ -1,0 +1,73 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f5f5dc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    margin: 20px 0;
+    color: #4a4a4a;
+  }
+  
+  .instructions {
+    margin: 10px auto;
+    font-size: 18px;
+    color: #333;
+    max-width: 600px;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    grid-gap: 2px;
+    margin: 20px auto;
+    width: 310px;
+    height: 310px;
+    border: 3px solid #4a4a4a;
+    background-color: #faf3e0;
+  }
+  
+  .cell {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f2d9;
+  }
+  
+  .cell.challenge {
+    background-color: #ffd700;
+  }
+  
+  .cell.goal {
+    background-color: #8fd18f;
+  }
+  
+  .player {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3498db;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  #diceResult {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #444;
+  }
+  
+  #challengeText {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
